@@ -36,21 +36,21 @@
 //     Console.Write("No!");
 // }
 
-/*
- Task 2. Напишите программу, которая на вход принимает одно число (N),
- а на выходе показывает все целые числа в промежутке от -N до N.
 
-Console.Write("Input a posible number: ");
-int num = Convert.ToInt32(Console.ReadLine());
+//  Task 2. Напишите программу, которая на вход принимает одно число (N),
+//  а на выходе показывает все целые числа в промежутке от -N до N.
 
-int current = -num;
+// Console.Write("Input a posible number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-while(current <= num)
-{
-    Console.Write(current + " ");
-    current++;
-}
-*/
+// int current = -num;
+
+// while(current <= num)
+// {
+//     Console.Write(current + " ");
+//     current++;
+// }
+
 
 // 31542 /10 = 3154
 // 31542 /100 = 315
