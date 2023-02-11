@@ -7,15 +7,27 @@
 // Console.Write("Input a second number: ");
 // int num2 = Convert.ToInt32(Console.ReadLine());
 
+// int max = num1;
+// int min = num2;
+
 // if(num2 > num1)
 // {
-//     Console.WriteLine("max number: " + num2);
-//     Console.WriteLine("min number: " + num1);
+//     max = num2;
+//     min = num1;
+//     Console.WriteLine("max number: " + max);
+//     Console.WriteLine("min number: " + min);
 // }
-// else
+// else 
 // {
-//     Console.WriteLine("max number: " + num1);
-//     Console.WriteLine("min number: " + num2);
+// if(num1 == num2)
+// {
+//     Console.WriteLine(+ num1 + " = " + num2);
+// }
+//         else 
+//         {
+//             Console.WriteLine("max number: " + max);
+//             Console.WriteLine("min number: " + min);
+//         }
 // }
 
 
