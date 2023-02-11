@@ -49,20 +49,23 @@
 //     max = num2;
 // }
 // else 
-// if(num2 == max)
+// if(num2 == num1)
 // {
-//     Console.WriteLine( + max + " = " + num2);
+//     Console.WriteLine("first number " + num1 + " = second number " + num2);
 // }
 // if(num3 > max)
 // {
 //     max = num3;
 // }
 // else 
-// if(num3 == max)
+// if(num3 == num2)
 // {
-//     Console.WriteLine( + max + " = " + num3);
+//     Console.WriteLine("second number " + num2 + " = third number " + num3);
 // }
-
+// if (num1 == num3)
+// {
+//     Console.WriteLine("first number " + num1 + " = third number " + num3);
+// }
 // Console.WriteLine("max number: " + max);
 
 
