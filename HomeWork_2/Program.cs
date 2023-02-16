@@ -46,7 +46,7 @@
 // Console.Write("Input a number: ");
 // int num = Convert.ToInt32(Console.ReadLine());
 
-// if (num < 8)
+// if (num < 8 && num > 0)
 // {
 //     if (num < 6)
 //     Console.WriteLine($"the day {num} is worker");
