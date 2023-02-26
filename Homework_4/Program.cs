@@ -21,26 +21,53 @@
 
 // Задача 27.
 // Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-// 452 -> 11
-// 82 -> 10
-// 9012 -> 12
 
-int Sum (int num)
-{
-    int sum = 0;
+// int Sum (int num)
+// {
+//     int sum = 0;
 
-    while (num > 0)
-    {
-        sum = sum + num % 10;
-        num = num / 10;
-    }
+//     while (num > 0)
+//     {
+//         sum = sum + num % 10;
+//         num = num / 10;
+//     }
 
-    return sum;
-}
+//     return sum;
+// }
+
+// Console.Write("input a umber: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// int result = Sum (num);
+//  Console.WriteLine($"The result of the sum of all digits of the number {num} is {result}");
 
 
-Console.Write("input a umber: ");
-int num = Convert.ToInt32(Console.ReadLine());
+// Задача 29.
+//  Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
 
-int result = Sum (num);
- Console.WriteLine($"Resolt is {result}");
+// int[] CreateRandomArray(int size)
+// {
+//     int[] array = new int[size];
+
+//     for(int i = 0; i <size; i++)
+//     {
+//         Console.Write("input a number : ");
+//         array[i] = Convert.ToInt32(Console.ReadLine());
+//     }
+//         return array;
+// }
+
+// void ShowArray(int[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
+    
+//     Console.WriteLine();
+// }
+
+// Console.Write("Input a quantity of elements: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+
+
+// int[] newArray = CreateRandomArray(size);
+// ShowArray(newArray);
