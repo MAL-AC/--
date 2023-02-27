@@ -45,7 +45,7 @@
 // Задача 29.
 //  Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
 
-// int[] CreateRandomArray(int size)
+// int[] CreateArray(int size)
 // {
 //     int[] array = new int[size];
 
@@ -69,5 +69,5 @@
 // int size = Convert.ToInt32(Console.ReadLine());
 
 
-// int[] newArray = CreateRandomArray(size);
+// int[] newArray = CreateArray(size);
 // ShowArray(newArray);
