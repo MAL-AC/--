@@ -92,6 +92,8 @@
 // Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 
+//                                     Вариант 1. Целые числа
+
 // int MaxArray(int[] array)
 // {
 //     int max = array[0];
@@ -146,5 +148,64 @@
 
 // Console.WriteLine($"Min array is {MiniArray}, max array is {MaxiArray} ");
 // Console.WriteLine($"The difference between the max and min arrays is {diff}");
+
+
+//                         Вариант 2. Вещественные числа
+
+// double MaxArray(double[] array)
+// {
+//     double max = array[0];
+//     for(int i = 1; i < array.Length; i++)
+//         if(array[i] > max)
+//         max = array[i];
+
+//     return max;
+// } 
+
+// double MinArray(double[] array)
+// {
+//     double min = array[0];
+//     for(int i = 1; i < array.Length; i++)
+//         if(array[i] < min)
+//             min = array[i];
+
+//     return min;
+// } 
+
+// double[] CreateRandomArray(int size , int minValue, int maxValue)
+// {
+//     double[] array = new double[size];
+
+//     for(int i = 0; i <size; i++)
+//         array[i] = new Random().Next(minValue, maxValue + 1);
+
+//         return array;
+// }
+
+// void ShowArray(double[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
+    
+//     Console.WriteLine();
+// }
+
+// Console.Write("Input a quantity of elements: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a min possible value: ");
+// int min = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a max possible value: ");
+// int max = Convert.ToInt32(Console.ReadLine());
+
+// double[] newArray = CreateRandomArray(size, min, max);
+// ShowArray(newArray);
+
+// double MaxiArray = MaxArray(newArray);
+// double MiniArray = MinArray(newArray);
+// double diff = MaxiArray - MiniArray;
+
+// Console.WriteLine($"Min array is {MiniArray}, max array is {MaxiArray} ");
+// Console.WriteLine($"The difference between the max and min arrays is {diff}");
+
 
 
