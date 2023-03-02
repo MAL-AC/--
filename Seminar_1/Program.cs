@@ -61,3 +61,7 @@
 // 31542 % 100 = 42
 // 31542 % 1000= 542
 // 31542 % 10000 = 1542
+
+// int result = 0;
+// result = 5 % 3;
+// Console.WriteLine(result);
