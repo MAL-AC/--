@@ -47,7 +47,7 @@
 
 // double length = Distance(pointAX, pointAY, pointAZ, pointBX, pointBY, pointBZ);
 
-// double result = Math.Round(length, 2, MidpointRounding.AwayFromZero);
+// double reuslt = Math.Round(length, 2, MidpointRounding.AwayFromZero);
 
 // Console.WriteLine($"Distance between point A ({pointAX}; {pointAY}; {pointAZ}) & point B ({pointBX}; {pointBY}; {pointBZ}) is {result}");
 

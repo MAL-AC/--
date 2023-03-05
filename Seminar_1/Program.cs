@@ -65,3 +65,7 @@
 // int result = 0;
 // result = 5 % 3;
 // Console.WriteLine(result);
+
+
+System.Double sum = 4/3;
+Console.Write(sum);
