@@ -1,0 +1,15 @@
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.csproj.AssemblyReference.cache
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.AssemblyInfoInputs.cache
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.AssemblyInfo.cs
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.csproj.CoreCompileInputs.cache
+C:\Users\MAL\Desktop\С#\MY\bin\Debug\net6.0\MY.exe
+C:\Users\MAL\Desktop\С#\MY\bin\Debug\net6.0\MY.deps.json
+C:\Users\MAL\Desktop\С#\MY\bin\Debug\net6.0\MY.runtimeconfig.json
+C:\Users\MAL\Desktop\С#\MY\bin\Debug\net6.0\MY.dll
+C:\Users\MAL\Desktop\С#\MY\bin\Debug\net6.0\MY.pdb
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.dll
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\refint\MY.dll
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.pdb
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\MY.genruntimeconfig.cache
+C:\Users\MAL\Desktop\С#\MY\obj\Debug\net6.0\ref\MY.dll
