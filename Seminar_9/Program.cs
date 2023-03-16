@@ -24,5 +24,32 @@ Console.WriteLine(SumOfDigits(1234));
 // Задайте значения M и N. Напишите программу, которая выведет 
 // все натуральные числа в промежутке от M до N.
 
+/*
+void ShowNums(int n, int m)
+{
+    if(n > m) ShowNums(n, m + 1);
+    if(n < m) ShowNums(n, m - 1);
+    Console.Write(m + " ");
+}
+
+ShowNums(8, 5);
+*/
+
 // Напишите программу, которая на вход принимает два числа A и B,
 // и возводит число А в целую степень B.
+
+/*
+double PowerOfNum (double num, int pow)
+{
+    if (pow ==0) return 1;
+    else
+    {
+        if(pow > 0)
+            return PowerOfNum(num, pow - 1) * num;
+        else
+            return PowerOfNum(num, pow + 1) / num;
+    }
+}
+
+Console.WriteLine(PowerOfNum(2, 4));
+*/
