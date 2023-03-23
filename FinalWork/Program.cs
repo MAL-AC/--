@@ -1,37 +1,60 @@
-﻿int[] CopyArray(int[] array)
-{
-    int[] result = new int[array.LongLength];
-    for(int i = 0; i < array.Length; i++)
-        result [i] = array [i];
-    return result;
-}
+﻿// string[] array = { "hello", "2", "world", ":-)", "1234", "1567", "Rus",
+// "-2", "computer science", "Russia", "Denmark", "Kazan", "GB", "GBU" };
+// Console.WriteLine("Введите массив строк через пробел");
+// string[] array = Console.ReadLine();
 
-int[] CreateRandomArray(int size , int minValue, int maxValue)
+
+/*
+string[] CopyArray(string[] array)
 {
-    int[] array = new int[size];
+    string[] result = new string[array.LongLength];
+    for(int i = 0; i < array.Length; i++)
+        if(array[i].Length >= 3)
+        {
+        return result [i] = array [i];
+    return result;
+        }
+}
+*/
+string [] CreateRandomArray()
+{   
+    Console.Write("Input a quantity of elements: ");
+     int size = Convert.ToInt32(Console.ReadLine());
+    string[] array = new string[size];
 
     for(int i = 0; i <size; i++)
-        array[i] = new Random().Next(minValue, maxValue + 1);
-
+    {
+        Console.WriteLine($"Input {i+1} element");
+        array[i] = Console.ReadLine();
+    }
         return array;
 }
 
-void ShowArray(int[] array)
+void ShowArray(string[] array)
 {
     for(int i = 0; i < array.Length; i++)
+    {
+        if(array[i].Length >= 3)
         Console.Write(array[i] + " ");
-    
-    Console.WriteLine();
+    }
 }
 
-Console.Write("Input a quantity of elements: ");
-int size = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Input a quantity of elements: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+/*
 Console.Write("Input a min possible value: ");
-int min = Convert.ToInt32(Console.ReadLine());
+string min = Console.ReadLine();
 Console.Write("Input a max possible value: ");
-int max = Convert.ToInt32(Console.ReadLine());
+string max = Console.ReadLine();
 
-int[] newArray = CreateRandomArray(size, min, max);
+string[] newArray = CreateRandomArray(size, min, max);
 ShowArray(newArray);
+*/
 
-ShowArray(CopyArray(newArray));
+// string[] newArray = CopyArray(array);
+string[] newArray = CreateRandomArray();
+ShowArray(newArray);
+// ShowArray(array);
+
+
