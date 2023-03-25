@@ -20,16 +20,15 @@ string[] CopyArray(string[] array)
     return result;
 }
 
-void ShowArray(string[] array)
+void ShowArray(string[] result)
 {
-    for(int i = 0; i < array.Length; i++)
+    for(int i = 0; i < result.Length; i++)
     {
-        Console.Write(array[i] + " ");
+        Console.Write(result[i] + " ");
     }
 }
 
 string[] newArray = CreateArray();
-// ShowArray(newArray);
 ShowArray(CopyArray(newArray));
 
 
